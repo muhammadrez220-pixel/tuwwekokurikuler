@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+header {
+    background: #000000;
+    color: rgb(255, 255, 255);
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: url(ngik.webp) center/cover no-repeat;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.nav-logo {
+    height: 50px;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+}
+
+nav a.active {
+    border-bottom: 2px solid orange;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background:  url(ngik.webp) center/cover no-repeat;
+    color: white;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #8b4513;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #a05a28;
+}
+
+.content {
+    padding: 40px 60px;
+}
+
+.img-content {
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px 0;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #8b4513;
+    color: white;
+}

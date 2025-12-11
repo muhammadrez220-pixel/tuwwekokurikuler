@@ -1,0 +1,3 @@
+- [x] Add image galleries to seni.html with senirupa1 and senirupa2
+- [x] Add image to alatmusik.html with gamelan
+- [x] Add image galleries to kuliner.html with kuliner1 and kuliner2
